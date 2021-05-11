@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+}
+.container .card{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+.header{
+    margin-left: 50px;
+}
+.header h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    padding-top: 40px;
+}
+.header h3{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+.header p{
+    color: 	#A0A0A0;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+}
+.container-fluid .first{
+    background: hsl(179, 62%, 43%);
+    font-weight: 400;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.container-fluid .first h2{
+    padding-top: 50px;
+    font-weight: 700;
+}
+.container-fluid .first p span{
+    font-weight: 500;
+    font-size: xxx-large;
+}
+.container-fluid .first .btn{
+    background: hsl(71, 73%, 54%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    font-weight: 400;
+    border: none;
+}
+.container-fluid .second{
+    background: #13cfca;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.container-fluid .second h2{
+    font-weight: 700; 
+}
+.container-fluid .second p{
+    margin-bottom: 0rem;
+}
